@@ -3,8 +3,7 @@
 # check port
 
 - socket check and build
-
-  > ```
+    ```
     import socket 
     def check_port(port):
       sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -14,7 +13,7 @@
     print(check_port(36439))
     ```
     
-  > ```
+    ```
     from socket import *
     serverNegSocket = socket(AF_INET, SOCK_DGRAM)
     serverNegSocket.bind(('', 0))
